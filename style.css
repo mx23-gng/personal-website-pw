@@ -370,6 +370,17 @@ button:hover {
   }
 }
 
+/*Scroll Animation*/
+.reveal{
+   opacity: 0;
+   transform: translateY(30px);
+   transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible{
+  opacity: 1;
+  transform: translateY(0)
+
 @media (max-width: 480px) {
   header {
     padding: 20px 15px;
