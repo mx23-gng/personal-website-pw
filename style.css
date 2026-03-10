@@ -18,6 +18,10 @@ header h1 {
   font-size: clamp(1.4rem, 5vw, 2rem);
 }
 
+header img{
+  align-items: left;
+}
+
 /* ===== NAV ===== */
 nav {
   background-color: #444;
